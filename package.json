@@ -1,0 +1,39 @@
+{
+  "name": "gulp_browserify_livereload",
+  "version": "1.0.0",
+  "description": "Base build for gul,babel,browserify,watchify and livereload playing nice.",
+  "main": "index.js",
+  "scripts": {
+    "start": "{ gulp & }"
+  },
+  "keywords": [
+    "wordpress",
+    "node",
+    "rest"
+  ],
+  "author": "@kim",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.18.8",
+    "browserify": "^14.1.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cli": "^1.2.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.1.0",
+    "gulp-util": "^3.0.8",
+    "lodash.assign": "^4.2.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  }
+}
